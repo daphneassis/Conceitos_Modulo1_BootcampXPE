@@ -1,0 +1,24 @@
+<html>
+    <script>
+        //receber uma palavra e inverter a ordem
+        //a palavra abacate tem 7 lenght, mas 6 índices logo pra começar de trás pra frente eu posso 
+        //botar lenght-1, que começa a mostrar do índice 6 pra trás
+        //o lenght funciona para lista e para letras de uma palavra, ele trata ela como lista
+        //quero q ela percorra os índices 6543210
+     
+       
+        function ordemInversa(palavra){
+            var palavraInvertida="";
+        for(var i=palavra.lenght-1;i>=0; i--){
+                palavraInvertida = palavraInvertida + palavra[i];
+            }
+            return palavraInvertida;
+        }
+       // tá dando " " acho q não tá entendendo o lenght de palavra
+               /*   function ordemInversa(palavra){
+           for(var i = 0; i< palavra.lenght; i++){
+            console.log(palavra[i]);
+           }
+       }*/
+    </script>
+</html>
